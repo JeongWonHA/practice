@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
+
 int main(){
   srand(time(NULL));
   char food[10][] = {"햄버거","치킨","짜장면","고기","국밥"};
@@ -15,5 +16,6 @@ int main(){
     scanf("%d",&u);
     if(u == 0) break;
   }
+  printf("오늘도 즐밥!\n");
   return 0;
 }

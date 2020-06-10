@@ -4,6 +4,7 @@
 int main(){
   srand(time(NULL));
   char food[10][] = {"햄버거","치킨","짜장면","고기","국밥"};
+  printf("season 1\n-----------------------------/n");
   printf("오늘은 뭐 먹을까?");
   while(1){
     printf("Enter을 누르면 됩니다!\n");
